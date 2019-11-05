@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
     <title>Travail de groupe Github - B1 Info</title>
     <!--<link rel="icon" type="image/png" href="images/favicon.png" />-->
   </head>
@@ -10,54 +11,86 @@
   <body>
 
     <header>
-        <div>
-            <h1>Sujets à traiter</h1>
-            
-            <h2>● Les différents métiers de l’informatique</h2>
-            <p>Le métier de l'informatique ne cessent d'évoluer avec l'intelligence artificielle, la réalité virtuelle, la cybers-cécurité.<br/>
-                Ce métier créent de nouvelles possibilités dans plusieurs domaines (transports, santé,multimédia,finance,industie,marketing...).<br/>
-                Voici quelques métiers de l'informatique:
-                <p>
 
-            <h2>● Les différents langages de programmation</h2>
-            <p>Il existe de nombreux langages de programmation. Un langage de programmation doit permettre d'écrire des algorithmes.<br/>
-                L'encyclopédie en ligne Wikipédia en recense plus de 800 et possède une documentation pour quasiment la moitié d'entre eux.<br/>
-                Parmi les plus populaires d'entre eux on trouve :</p>
-            <li>JavaScript</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>C#</li>
-            <li>C</li>
-            <li>Swift</li>
-            <li>Go</li>
-            <li>TypeScript</li>
-            <li>SQL</li>
-            <li>Ruby</li>
-            <li>PHP</li>
-            <li>Perl</li>
-            <li>Rust</li>
+            <h1>Sujets à traiter</h1></br>
 
-            <h2>● Les différents IDE, leurs particularités et objectifs</h2>
-            <p>   1) Visual Studio Code : On a la possibilité de customiser son outil comme on le souhaite, ex : ajout de plugins pour javascript et d'autres languages. Il s'actualise à chaque modification.<br/>
-              Donc on gagne en temps car tout est automatique.<br/>
-              <ol></ol>    
-                  2) Eclipse
-            </p>
+		<div id="wrapper" class="container">
+            <nav id="nav">
+                <ul>
+                    <li><a href="#nav1" class="active">Métiers de l’informatique</a></li>
+                    <li><a href="#nav2">Langages de programmation</a></li>
+                    <li><a href="#nav3">IDE</a></li>
+                    <li><a href="#nav4">Les communautés importantes</a></li>
+                    <li><a href="#nav5">Bonnes pratiques du code informatique</a></li>
+                    <li><a href="#nav6">Veille technologique</a></li>
+                </ul>
+            </nav>
+		
+            <div id="main" class="container">
+            <section id="nav1" class="main special">
+                <h2>● Les différents métiers de l’informatique</h2>
+                <p>Le métier de l'informatique ne cessent d'évoluer avec l'intelligence artificielle, la réalité virtuelle, la cybers-cécurité.<br/>
+                    Ce métier créent de nouvelles possibilités dans plusieurs domaines (transports, santé,multimédia,finance,industie,marketing...).<br/>
+                    Voici quelques métiers de l'informatique:</p>
+                    <li>informaticien industriel</li>
+                    <li>ingénieur technico-commercial en informatique</li>
+                    <li>testeur</li>
+                    <li>administrateur de base de données</li>
+                    <li>administrateur de réseau</li>
+                    <li>développeur informatique</li>
+                    <li>expert en sécurité informatique</li>
+            </section>
 
-            <h2>● Les communautés importantes</h2>
-            <p>Les communautés liées à l'informatique sont nombreuses et très vastes.<br/>
-                En tant que développeur nous nous intéressons plus aux communautés d'entraide pour apprendre comme : <br/>
-                <a href="https://stackoverflow.com/">Stackoverflow</a> (questions et résolutions de beugs)<br/>
-                <a href="http://openclassrooms.com/">Openclassrooms</a> (cours en ligne)
-            </p>
+            <section id="nav2" class="main special">
+                <h2>● Les différents langages de programmation</h2>
+                <p>Il existe de nombreux langages de programmation. Un langage de programmation doit permettre d'écrire des algorithmes.<br/>
+                    L'encyclopédie en ligne Wikipédia en recense plus de 800 et possède une documentation pour quasiment la moitié d'entre eux.<br/>
+                    Parmi les plus populaires d'entre eux on trouve :</p>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>C#</li>
+                <li>C</li>
+                <li>Swift</li>
+                <li>Go</li>
+                <li>TypeScript</li>
+                <li>SQL</li>
+                <li>Ruby</li>
+                <li>PHP</li>
+                <li>Perl</li>
+                <li>Rust</li>
+            </section>
 
-            <h2>● Les bonnes pratiques du code informatique</h2>
-            <p></p>
+            <section id="nav3" class="main special">
+                <h2>● Les différents IDE, leurs particularités et objectifs</h2>
+                <p>   1) Visual Studio Code : On a la possibilité de customiser son outil comme on le souhaite, ex : ajout de plugins pour javascript et d'autres languages. Il s'actualise à chaque modification.<br/>
+                Donc on gagne en temps car tout est automatique.<br/>
+                <ol></ol>    
+                    2) Eclipse :Il possède une bonne gestion de SVN et CVS ainsi qu'une 
+                </p>
+            </section>
 
-            <h2>● La veille technologique : les avantages, inconvénients etc…</h2>
-            <p></p>
-            
+            <section id="nav4" class="main special">
+                <h2>● Les communautés importantes</h2>
+                <p>Les communautés liées à l'informatique sont nombreuses et très vastes.<br/>
+                    En tant que développeur nous nous intéressons plus aux communautés d'entraide pour apprendre comme : <br/>
+                    <a href="https://stackoverflow.com/">Stackoverflow</a> (questions et résolutions de beugs)<br/>
+                    <a href="http://openclassrooms.com/">Openclassrooms</a> (cours en ligne)
+                </p>
+            </section>
+
+            <section id="nav5" class="main special">
+                <h2>● Les bonnes pratiques du code informatique</h2>
+                <p></p>
+            </section>
+
+            <section id="nav6" class="main special">
+                <h2>● La veille technologique : les avantages, inconvénients etc…</h2>
+                <p>La veille technologique consiste à s'informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale. Elle s'est dévellopée en France à la fin des années 1980 </br>
+                La veille technologique ne doit pas être confondue avec l'espionnage industriel car elle récupère des informations accessibles à tous, et ne s'intéresse pas aux seules informations provenant d'une seule entreprise </p>
+            </section>
+            </div>
         </div>
     </header>
 
