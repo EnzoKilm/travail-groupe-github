@@ -58,7 +58,43 @@ div#titre h1 {
   padding-bottom: 10px;
 }
 
-#nav {
+header.major {
+		margin-bottom: 3em;
+	}
+
+		header.major h2 {
+			font-size: 2em;
+		}
+
+			header.major h2:after {
+				display: block;
+				content: '';
+				width: 3.25em;
+				height: 2px;
+				margin: 0.7em 0 1em 0;
+				border-radius: 2px;
+			}
+
+				section.special header.major h2:after, article.special header.major h2:after {
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+		header.major p {
+			font-size: 1.25em;
+			letter-spacing: -0.025em;
+		}
+
+		header.major.special {
+			text-align: center;
+		}
+
+			header.major.special h2:after {
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+	#nav {
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
@@ -70,8 +106,8 @@ div#titre h1 {
 		padding: 1em;
 		background-color: #f7f7f7;
 		cursor: default;
-    text-align: center;
-    border-bottom: 2px solid #0056b3;
+		text-align: center;
+		border-bottom: 2px solid #0056b3;
 	}
 
     .fixNav{
