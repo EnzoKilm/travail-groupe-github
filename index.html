@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
     <title>Travail de groupe Github - B1 Info</title>
-    <!--<link rel="icon" type="image/png" href="images/favicon.png" />-->
+    <link rel="icon" type="image/png" href="favicon.ico" />
   </head>
 
   <body>
@@ -18,7 +18,7 @@
         <nav id="nav">
             <ul>
                 <li><a href="#nav1" class="active">Métiers de l’informatique</a></li>
-                <li><a href="#nav2">Langages de programmation</a></li>
+                <li><a href="#nav2" onclick="changerClasse(this.id)">Langages de programmation</a></li>
                 <li><a href="#nav3">IDE</a></li>
                 <li><a href="#nav4">Les communautés importantes</a></li>
                 <li><a href="#nav5">Bonnes pratiques du code informatique</a></li>
@@ -105,22 +105,22 @@
 
   <!-- Source du script pour le nav bloqué en haut : http://www.scoco.fr/fixer-barre-navigation-scroll/ -->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script type="text/javascript">
+    <script type="text/javascript">
 		$(function(){
 			// On recupere la position du bloc par rapport au haut du site
 			var position_top_raccourci = $("#titre").offset().top;
 			
-			//Au scroll dans la fenetre on d�clenche la fonction
+			//Au scroll dans la fenetre on déclenche la fonction
 			$(window).scroll(function () {
 			
 				//si on a defile de plus de 150px du haut vers le bas
 				if ($(this).scrollTop() > position_top_raccourci) {
 				
-					//on ajoute la classe "fixNavigation" a <div id="nav">
+					//on ajoute la classe "fixNav" a <div id="nav">
 					$('#nav').addClass("fixNav"); 
 				} else {
 				
-					//sinon on retire la classe "fixNavigation" a <div id="nav">
+					//sinon on retire la classe "fixNav" a <div id="nav">
 					$('#nav').removeClass("fixNav");
 				}
 			});
