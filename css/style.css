@@ -185,10 +185,10 @@ header.major {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
+      background-color: rgba(247, 247, 247, 0.95);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
-			z-index: 10000;
+      z-index: 10000;
 		}
 
 			#nav.alt ul li {
@@ -679,8 +679,8 @@ body {
   color: #212529;
   text-align: left;
   background-color: #935d8c;
-  	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+  	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #491ad4 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #c46973 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 }
