@@ -173,21 +173,17 @@
   width:34px;
   font-size:14px
 }
-.social-icons a.facebook:hover
+.social-icons a.html:hover
 {
-  background-color:#3b5998
+  background-color:#FF6600
 }
-.social-icons a.twitter:hover
+.social-icons a.css:hover
 {
-  background-color:#00aced
+  background-color:#264EE4
 }
-.social-icons a.linkedin:hover
+.social-icons a.js:hover
 {
-  background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
+  background-color:#F7DF1E
 }
 @media (max-width:767px)
 {
