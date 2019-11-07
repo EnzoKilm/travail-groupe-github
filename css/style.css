@@ -2533,6 +2533,10 @@ pre code {
   overflow-x: auto;
 }
 
+.table-wrapper td.focus {
+  background-color: yellow;
+}
+
 table {
   margin: 0 0 2em 0;
   width: 100%;

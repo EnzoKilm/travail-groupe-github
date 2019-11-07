@@ -18,9 +18,9 @@
         
         <div id="menu">
                 <h4><center>Langages</center></h4>
-                <a href="#L384">JavaScript</a><br>
-                <a href="#details">Java</a><br>
-                <a href="#FAQ">Python</a>
+                <a onClick="Focus('javascript')">JavaScript</a><br>
+                <a onClick="Focus('java')">Java</a><br>
+                <a onClick="Focus('python')">Python</a>
         </div>
 
 
@@ -160,15 +160,15 @@
                             <tbody>
                                 <tr>
                                     <td>JavaScript</td>
-                                    <td>C'est un langage informatique qui est utilisé sur les pages web. Il a comme particularité de s'exécuter sur le poste client contrairement à d'autres langages informatique qui sont actifs sur le serveur. Le code est exécuter via le navigateur web tel que Firefox, Chrome...</td>
+                                    <td id="javascript">C'est un langage informatique qui est utilisé sur les pages web. Il a comme particularité de s'exécuter sur le poste client contrairement à d'autres langages informatique qui sont actifs sur le serveur. Le code est exécuter via le navigateur web tel que Firefox, Chrome...</td>
                                 </tr>
                                 <tr>
                                     <td>Java</td>
-                                    <td>C'est un language de programmation inspiré du langage C++. Il possède un modèle de programmation orienté en objet. Ce langage permet de créer des applications complètes. Il peut également créer un petit module d'application "Plugins", pour être intégrer dans une page Web.</td>
+                                    <td id="java">C'est un language de programmation inspiré du langage C++. Il possède un modèle de programmation orienté en objet. Ce langage permet de créer des applications complètes. Il peut également créer un petit module d'application "Plugins", pour être intégrer dans une page Web.</td>
                                 </tr>
                                 <tr>
                                     <td>Python</td>
-                                    <td>C'est un langage de programmation interprété open source. Il n'a pas besoin d'être compilé pour fonctionner. Il peut fonctionner grâce à un "interprétateur" pour permettre d'exécuter le code sur n'importe quel ordinateur. C'est un langage de programmation de haut niveau, l'écriture des programmes prend moins de temps que dans un autre langage. Ce langage est parfait pour les débutants.</td>
+                                    <td id="python">C'est un langage de programmation interprété open source. Il n'a pas besoin d'être compilé pour fonctionner. Il peut fonctionner grâce à un "interprétateur" pour permettre d'exécuter le code sur n'importe quel ordinateur. C'est un langage de programmation de haut niveau, l'écriture des programmes prend moins de temps que dans un autre langage. Ce langage est parfait pour les débutants.</td>
                                 </tr>
                                 <tr>
                                     <td>C++</td>
@@ -570,6 +570,12 @@
     </script>
 
     <script>
-
+        var LastFocus = "bonjour";
+        function Focus(id) {
+            document.getElementById(id).classList.add('focus');
+            document.getElementById(LastFocus).classList.remove('focus');
+            var LastFocus = str(id);
+            
+        }
     </script>
 </html>
