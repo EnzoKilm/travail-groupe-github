@@ -6700,15 +6700,6 @@ body.is-preload #header.alt .logo {
   -webkit-transform: scale(0.8) rotate(-30deg);
   -ms-transform: scale(0.8) rotate(-30deg);
   transform: scale(0.8) rotate(-30deg);
-
-.carousel-indicators li::before {
-  position: absolute;
-  top: -10px;
-  left: 0;
-  display: inline-block;
-  width: 100%;
-  height: 10px;
-  content: "";
 }
 
 .carousel-indicators li::after {
