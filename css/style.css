@@ -35,6 +35,19 @@
   box-sizing: border-box;
 }
 
+#menu {
+  position: fixed;
+  top: 30%;
+  width: 13em;
+  margin-top: -2.5em;
+  background-color: #ffffff;
+  color: #636363;
+  border-radius: 0.25em;
+  margin-left: 1em;
+  padding: 1em 1em 1em 1em ;
+  
+}
+
 .site-footer
 {
   background-color:#26272b;
