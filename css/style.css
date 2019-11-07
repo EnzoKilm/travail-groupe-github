@@ -37,7 +37,7 @@
 
 #menu {
   position: fixed;
-  top: 55%;
+  top: 30%;
   width: 13em;
   margin-top: -2.5em;
   background-color: #ffffff;
@@ -45,10 +45,7 @@
   border-radius: 0.25em;
   margin-left: 1em;
   padding: 1em 1em 1em 1em ;
-  -moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-  -webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-  -ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-  transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+  
 }
 
 .site-footer
