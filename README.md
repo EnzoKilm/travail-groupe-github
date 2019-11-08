@@ -2,65 +2,15 @@
 
 Projet réalisé pour Kévin Niel.
 
-## Getting Started
+## Mise en place du site
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Pour pouvoir profiter pleinement du design et des fonctionnalités du site il est important de télécharger tous les éléments présents dans le repository et de les laisser à leur emplacement d'origine.
 
-### Prerequisites
+## Construit avec
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [HTML5](https://fr.wikipedia.org/wiki/HTML5) - Pour créer la page internet
+* [CSS3](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade) - Pour la styliser
+* [JS](https://fr.wikipedia.org/wiki/JavaScript) - Pour la dynamiser
 
 ## Contributing
 
