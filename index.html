@@ -14,26 +14,21 @@
             </div>
         </header>
         
-
-        
         <div id="menu">
-                <h4><center>Langages</center></h4>
-                <a onClick="Focus('javascript')">JavaScript</a><br>
-                <a onClick="Focus('java')">Java</a><br>
-                <a onClick="Focus('python')">Python</a><br>
-                <a onClick="Focus('c++')">C++</a><br>
-                <a onClick="Focus('c#')">C#</a><br>
-                <a onClick="Focus('c')">C</a><br>
-                <a onClick="Focus('swift')">Swift</a><br>
-                <a onClick="Focus('go')">Go</a><br>
-                <a onClick="Focus('objective-c')">Objective-C</a><br>
-                <a onClick="Focus('sql')">SQL</a><br>
-                <a onClick="Focus('ruby')">Ruby</a><br>
-                <a onClick="Focus('php')">PHP</a><br>
-                <a onClick="Focus('perl')">Perl</a><br>
-                <a onClick="Focus('rust')">Rust</a>
+            <h4><center>Langages</center></h4>
+            <a class="selection" href="#" name="javascript">JavaScript</a><br>
+            <a class="selection" href="#" name="java">Java</a><br>
+            <a class="selection" href="#" name="python">Python</a><br>
+            <a class="selection" href="#" name="c++">C++</a><br>
+            <a class="selection" href="#" name="c#">C#</a><br>
+            <a class="selection" href="#" name="c">C</a><br>
+            <a class="selection" href="#" name="swift">Swift</a><br>
+            <a class="selection" href="#" name="go">Go</a><br>
+            <a class="selection" href="#" name="objective-c">Objective-C</a><br>
+            <a class="selection" href="#" name="sql">SQL</a><br>
+            <a class="selection" href="#" name="ruby">Ruby</a><br>
+            <a class="selection" href="#" name="php">PHP</a>
         </div>
-
 
         <nav id="nav">
             <ul>
@@ -160,9 +155,8 @@
                     <p align="justify">Il existe de nombreux langages de programmation. Un langage de programmation doit permettre d'écrire des algorithmes.
                         L'encyclopédie en ligne Wikipédia en recense plus de 800 et possède une documentation pour quasiment la moitié d'entre eux.
                     <h5>Parmi les plus populaires d'entre eux on trouve :</h5></p>
-                    <div id="javascript">test</div>
                     <div class="table-wrapper">
-                        <table>
+                        <table class="table-languages">
                             <thead>
                                 <tr>
                                     <th>Nom</th>
@@ -170,61 +164,53 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr name="javascript">
                                     <td>JavaScript</td>
-                                    <td id="javascript">C'est un langage informatique qui est utilisé sur les pages web. Il a comme particularité de s'exécuter sur le poste client contrairement à d'autres langages informatique qui sont actifs sur le serveur. Le code est exécuter via le navigateur web tel que Firefox, Chrome...</td>
+                                    <td>C'est un langage informatique qui est utilisé sur les pages web. Il a comme particularité de s'exécuter sur le poste client contrairement à d'autres langages informatique qui sont actifs sur le serveur. Le code est exécuter via le navigateur web tel que Firefox, Chrome...</td>
                                 </tr>
-                                <tr>
+                                <tr name="java">
                                     <td>Java</td>
-                                    <td id="java">C'est un language de programmation inspiré du langage C++. Il possède un modèle de programmation orienté en objet. Ce langage permet de créer des applications complètes. Il peut également créer un petit module d'application "Plugins", pour être intégrer dans une page Web.</td>
+                                    <td>C'est un language de programmation inspiré du langage C++. Il possède un modèle de programmation orienté en objet. Ce langage permet de créer des applications complètes. Il peut également créer un petit module d'application "Plugins", pour être intégrer dans une page Web.</td>
                                 </tr>
-                                <tr>
+                                <tr name="python">
                                     <td>Python</td>
-                                    <td id="python">C'est un langage de programmation interprété open source. Il n'a pas besoin d'être compilé pour fonctionner. Il peut fonctionner grâce à un "interprétateur" pour permettre d'exécuter le code sur n'importe quel ordinateur. C'est un langage de programmation de haut niveau, l'écriture des programmes prend moins de temps que dans un autre langage. Ce langage est parfait pour les débutants.</td>
+                                    <td>C'est un langage de programmation interprété open source. Il n'a pas besoin d'être compilé pour fonctionner. Il peut fonctionner grâce à un "interprétateur" pour permettre d'exécuter le code sur n'importe quel ordinateur. C'est un langage de programmation de haut niveau, l'écriture des programmes prend moins de temps que dans un autre langage. Ce langage est parfait pour les débutants.</td>
                                 </tr>
-                                <tr>
+                                <tr name="c++">
                                     <td>C++</td>
-                                    <td id="c++">C'est un langage de programmation haut niveau. Il propose une programmation de type objet. Il est utilisé dans les applications demandant de hautes performances.</td>
+                                    <td>C'est un langage de programmation haut niveau. Il propose une programmation de type objet. Il est utilisé dans les applications demandant de hautes performances.</td>
                                 </tr>
-                                <tr>
+                                <tr name="c#">
                                     <td>C#</td>
-                                    <td id="c#">C'est un langage de programmation orienté objet, il permet le développement d'applications web sur l'architecture "Microsoft.Net". Ce langage est dérivé du C++ et ressemble fortement à du Java dont il reprend la syntaxe générale et les concepts en y ajoutant des notions de surchages des opérateurs, des indexeurs ainsi que les délégués.</td>
+                                    <td>C'est un langage de programmation orienté objet, il permet le développement d'applications web sur l'architecture "Microsoft.Net". Ce langage est dérivé du C++ et ressemble fortement à du Java dont il reprend la syntaxe générale et les concepts en y ajoutant des notions de surchages des opérateurs, des indexeurs ainsi que les délégués.</td>
                                 </tr>
-                                <tr>
+                                <tr name="c">
                                     <td>C</td>
-                                    <td id="c">Ce langage permet au développeur une marge de controle importante sur la machine. La syntaxe et la logique de ce langage à permi au langage plus modernes (C++, C#, java, php) de pouvoir ce développer.</td>
+                                    <td>Ce langage permet au développeur une marge de controle importante sur la machine. La syntaxe et la logique de ce langage à permi au langage plus modernes (C++, C#, java, php) de pouvoir ce développer.</td>
                                 </tr>
-                                <tr>
+                                <tr name="swift">
                                     <td>Swift</td>
-                                    <td id="swift">C'est un langage de programmation conçu pour résoudre les problèmes dans objective-C. Son objectif est de développer des applications pour la branche apple.</td>
+                                    <td>C'est un langage de programmation conçu pour résoudre les problèmes dans objective-C. Son objectif est de développer des applications pour la branche apple.</td>
                                 </tr>
-                                <tr>
+                                <tr name="go">
                                     <td>Go</td>
-                                    <td id="go">Ce langage a été développer par google et à été inspiré du langage C. C'est un langage de programation compilé(transforme un code source en un code objet). Son objectif est de faciliter et accélérer la programation à grande échelle.</td>
+                                    <td>Ce langage a été développer par google et à été inspiré du langage C. C'est un langage de programation compilé(transforme un code source en un code objet). Son objectif est de faciliter et accélérer la programation à grande échelle.</td>
                                 </tr>
-                                <tr>
+                                <tr name="objective-c">
                                     <td>Objective-C</td>
-                                    <td id="objective-c">C'est un language de programmation qui ce développe presque exclusivement pour IOS et OS x, cependant ce langages sert aussi comme éditeur sur Linux. </td>
+                                    <td>C'est un language de programmation qui ce développe presque exclusivement pour IOS et OS x, cependant ce langages sert aussi comme éditeur sur Linux. </td>
                                 </tr>
-                                <tr>
+                                <tr name="sql">
                                     <td>SQL</td>
-                                    <td id="sql">C'est un langage informatique normalisé servant à exploiter des bases de données.</td>
+                                    <td>C'est un langage informatique normalisé servant à exploiter des bases de données.</td>
                                 </tr>
-                                <tr>
+                                <tr id="ruby">
                                     <td>Ruby</td>
                                     <td id="ruby">C'est un langage de programmation orienté objet.</td>
                                 </tr>
                                 <tr>
                                     <td>PHP</td>
                                     <td id="php">C'est un langage de programmation libre. Il est principalement utilisé pour produire des pages web dynamiques via un serveur. Cependant il peut être aussi interprété en local.</td>
-                                </tr>
-                                <tr>
-                                    <td>Perl</td>
-                                    <td id="perl">C'est un langage crée en 1987 pour traiter facilement de l'information text.</td>
-                                </tr>
-                                <tr>
-                                    <td>Rust</td>
-                                    <td id="rust">C'est un langage de programmation compilé. Il a été conçu pour être un langage sécurisé et pratique.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -582,31 +568,48 @@
     }
     }
     function createDiv(height, width) {
-    var div=document.createElement("div");
-    div.style.position="absolute";
-    div.style.height=height+"px";
-    div.style.width=width+"px";
-    div.style.overflow="hidden";
-    div.style.backgroundColor=colour;
-    return (div);
+        var div=document.createElement("div");
+        div.style.position="absolute";
+        div.style.height=height+"px";
+        div.style.width=width+"px";
+        div.style.overflow="hidden";
+        div.style.backgroundColor=colour;
+        return (div);
     }
     // ]]>
     </script>
 
     <script>
-        var first_time = true;
-        function Focus(id) {
-           if (first_time == true){
-                localStorage.setItem('Foc', id);
-                document.getElementById(id).classList.add('focus');
-                first_time = false;
+        $(document).ready(function(){
+            $('a.selection').on('click', function(event){
+                event.preventDefault();
+                var name = $(this).attr('name');
+                // permet de supprimer l'ensemble des "surlignages" dans le tableau
+                $('table.table-languages tr').each(function(){
+                    $(this).removeClass('red');
+                });
+                // sélectionne et ajoute un fond uniquement à la ligne du tableau
+                var tr = $('table.table-languages tr[name="'+name+'"]');
+                tr.addClass("red");
+            });
+        });
 
-                
-             } else if (id !== localStorage.getItem('Foc')) {
-                document.getElementById(localStorage.getItem('Foc')).classList.remove('focus');
-                document.getElementById(id).classList.add('focus');
-            }
-            localStorage.setItem('Foc', id);
-        } 
+        // var first_time = true;
+        // function Focus(name) {
+        //    if (first_time == true) {
+        //         localStorage.setItem('Foc', name);
+        //         var test = $.(*[name=""+name+""]);
+        //         for(var i=0; i<test.length; i++) {
+        //             console.log(i, test[i]);
+        //         }
+        //         $.(*[name=""+name+""]).classList.add('focus');
+        //         first_time = false;
+        //     }
+        //     else if (name !== localStorage.getItem('Foc')) {
+        //         $.(*[name=""+loca+""]lStorage.getItem('Foc')).classList.remove('focus');
+        //         $.(*[name=""+name+""]).classList.add('focus');
+        //     }
+        //     localStorage.setItem('Foc', name);
+        // }
     </script>
 </html>
