@@ -204,45 +204,43 @@
                                     <td>SQL</td>
                                     <td>C'est un langage informatique normalisé servant à exploiter des bases de données.</td>
                                 </tr>
-                                <tr name="ruby">
+                                <tr id="ruby" name="ruby">
                                     <td>Ruby</td>
                                     <td>C'est un langage de programmation orienté objet.</td>
                                 </tr>
-                                <tr name="php">
+                                <tr id="php" name="php">
                                     <td>PHP</td>
                                     <td>C'est un langage de programmation libre. Il est principalement utilisé pour produire des pages web dynamiques via un serveur. Cependant il peut être aussi interprété en local.</td>
                                 </tr>
                         </tbody>
-                    </table>
-                    <p><h5>Framework</h5></p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Nom</th>
-                                <th>Description</th>
-                            </tr>
-                        </thead>
+                        </table>
+                        <p><h5>Framework</h5></p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nom</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
                                 <tbody>
-                                        <tr>
-                                            <td>Vue.JS</td>
-                                            <td>Il est utilisé pour construire des interfaces utilisateur.</td>
-                                        </tr>
-                                        <tr>
-                                                <td>AngularJS</td>
-                                                <td>Développé par Google. Il permet de développer des pages web.</td>
-                                        </tr>
-                                        <tr>
-                                                <td>ReactJS</td>
-                                                <td>Développé par Facebook. Son but principale est de faciliter la création d'applications web.</td>
-                                        </tr>
-                                        <tr>
-                                                <td>Moo Tools</td>
-                                                <td>Framework orienté objet.</td>
-                                        </tr>
-                                </tbody>
-                            </table>
-                            
-                        
+                                    <tr>
+                                        <td>Vue.JS</td>
+                                        <td>Il est utilisé pour construire des interfaces utilisateur.</td>
+                                    </tr>
+                                    <tr>
+                                            <td>AngularJS</td>
+                                            <td>Développé par Google. Il permet de développer des pages web.</td>
+                                    </tr>
+                                    <tr>
+                                            <td>ReactJS</td>
+                                            <td>Développé par Facebook. Son but principale est de faciliter la création d'applications web.</td>
+                                    </tr>
+                                    <tr>
+                                            <td>Moo Tools</td>
+                                            <td>Framework orienté objet.</td>
+                                    </tr>
+                            </tbody>
+                        </table> 
                     </div>
                 </section>
                     
@@ -407,21 +405,21 @@
                     <header class="major">
                         <h2>La veille technologique : les avantages, inconvénients etc…</h2>
                     </header>
-                    <p align="justify">La veille technologique consiste à s'informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale. Elle s'est dévellopée en France à la fin des années 1980.
+                    <p align="justify">La veille technologique consiste à s'informer de façon systématique sur les techniques les plus récentes et surtout sur leur mise à disposition commerciale. Elle s'est développée en France à la fin des années 1980.
                     La veille technologique ne doit pas être confondue avec l'espionnage industriel car elle récupère des informations accessibles à tous, et ne s'intéresse pas aux seules informations provenant d'une seule entreprise.
                     Mettre en place une veille technologique sur des marchés adjacents peut donc permettre d’identifier des innovations stratégiques pour son propre marché 
-                    C'est objectif sont de Comparer son savoir faire et le développer, choisir un projet, mettre en place un projet d’innovation, recentrer ou au contraire diversifier les activités de l’entreprise, acheter ou vendre des licences.</p>
+                    Ses objectifs sont de comparer les savoir-faire et les développer, choisir un projet, mettre en place un projet d’innovation, recentrer ou au contraire diversifier les activités de l’entreprise, acheter ou vendre des licences.</p>
                     <h6>Voici ses avantages :</h6>
                     <li> Suivre les évolutions techniques</li>
                     <li> Anticiper sur la concurrence</li>
                     <li> Diminuer les coûts de production</li>
                     <li> Augmenter la qualité des produits</li>
-                    <li> Identifier les meilleures pratiques</li>
+                    <li> Identifier les meilleures pratiques</li><br/>
                     <h6>Voici ses inconvénients :</h6>
                     <li>Pertes de données </li>
                     <li>Piratage informatique</li>
-                    <li>dépendance au réseau</li>
-                    <p>Au jour d'aujourd'hui les sources d'informations sont nombreuse. Dans le monde virtuel, il y a les sites institutionnels, les sites informatifs, les blogs spécialisés, les réseaux sociaux, les émissions télé et radio. Mais aussi les journaux, et autre objets réels.</p>
+                    <li>dépendance au réseau</li><br/>
+                    <p>Au jour d'aujourd'hui les sources d'information sont nombreuses. Dans le monde virtuel, il y a les sites institutionnels, les sites informatifs, les blogs spécialisés, les réseaux sociaux, les émissions télé et radio. Mais aussi les journaux, et autres objets réels.</p>
                 </section>
             </div>
         </div>
@@ -643,36 +641,18 @@
     </script>
 
     <script>
-        $(document).ready(function(){
-            $('a.selection').on('click', function(event){
-                //event.preventDefault();
-                var name = $(this).attr('name');
-                // permet de supprimer l'ensemble des "surlignages" dans le tableau
-                $('table.table-languages tr').each(function(){
-                    $(this).removeClass('yellow');
-                });
-                // sélectionne et ajoute un fond uniquement à la ligne du tableau
-                var tr = $('table.table-languages tr[name="'+name+'"]');
-                tr.addClass("yellow");
+    $(document).ready(function(){
+        $('a.selection').on('click', function(event){
+            //event.preventDefault();
+            var name = $(this).attr('name');
+            // permet de supprimer l'ensemble des "surlignages" dans le tableau
+            $('table.table-languages tr').each(function(){
+                $(this).removeClass('yellow');
             });
+            // sélectionne et ajoute un fond uniquement à la ligne du tableau
+            var tr = $('table.table-languages tr[name="'+name+'"]');
+            tr.addClass("yellow");
         });
-
-        // var first_time = true;
-        // function Focus(name) {
-        //    if (first_time == true) {
-        //         localStorage.setItem('Foc', name);
-        //         var test = $.(*[name=""+name+""]);
-        //         for(var i=0; i<test.length; i++) {
-        //             console.log(i, test[i]);
-        //         }
-        //         $.(*[name=""+name+""]).classList.add('focus');
-        //         first_time = false;
-        //     }
-        //     else if (name !== localStorage.getItem('Foc')) {
-        //         $.(*[name=""+loca+""]lStorage.getItem('Foc')).classList.remove('focus');
-        //         $.(*[name=""+name+""]).classList.add('focus');
-        //     }
-        //     localStorage.setItem('Foc', name);
-        // }
+    });
     </script>
 </html>
