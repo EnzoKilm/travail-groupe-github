@@ -12,7 +12,7 @@ Pour pouvoir profiter pleinement du design et des fonctionnalités du site il es
 * [CSS3](https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade) - Pour la styliser
 * [JS](https://fr.wikipedia.org/wiki/JavaScript) - Pour la dynamiser
 
-## Authors
+## Auteurs
 
 * **AMELINE Matthias** - [Matthias](https://github.com/Matthias-66)
 * **BEAUCHAMP Enzo** - [Enzo](https://github.com/EnzoKilm)
