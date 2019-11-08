@@ -580,11 +580,11 @@
                 var name = $(this).attr('name');
                 // permet de supprimer l'ensemble des "surlignages" dans le tableau
                 $('table.table-languages tr').each(function(){
-                    $(this).removeClass('red');
+                    $(this).removeClass('yellow');
                 });
                 // sélectionne et ajoute un fond uniquement à la ligne du tableau
                 var tr = $('table.table-languages tr[name="'+name+'"]');
-                tr.addClass("red");
+                tr.addClass("yellow");
             });
         });
 
