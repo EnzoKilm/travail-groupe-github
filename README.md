@@ -1,6 +1,6 @@
 # Une autre vision de l'informatique
 
-Projet réalisé pour Kévin Niel.
+Projet réalisé pour Kévin Niel en première année de bachelor informatique à Campus Academy.
 
 ## Mise en place du site
 
