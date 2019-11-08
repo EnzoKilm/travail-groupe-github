@@ -1,6 +1,6 @@
-# Project Title
+# Une autre vision de l'informatique
 
-One Paragraph of project description goes here
+Projet réalisé pour Kévin Niel.
 
 ## Getting Started
 
